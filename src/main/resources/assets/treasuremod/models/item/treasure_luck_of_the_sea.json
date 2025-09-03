@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "treasuremod:item/treasure_luck_of_the_sea"
+  }
+}

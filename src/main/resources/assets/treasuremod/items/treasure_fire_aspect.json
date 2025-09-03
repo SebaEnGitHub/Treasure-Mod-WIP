@@ -1,0 +1,7 @@
+{
+  "model": {
+    "type" : "minecraft:model",
+    "model": "treasuremod:item/treasure_fire_aspect"
+
+  }
+}

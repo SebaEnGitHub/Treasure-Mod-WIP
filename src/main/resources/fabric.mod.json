@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "treasuremod",
+	"version": "${version}",
+	"name": "Treasure Mod",
+	"description": "The Treasure Mod implements a new item type added to most structures called Treasures.\nEach enchantment has a treasure attached to it that can be used in the enchanting table to guarantee the respective enchantment. The mod aims to give the tedious gameplay loop of villager trading an engaging alternative with a gameplay style that encourages exploration.",
+	"authors": [
+		"SEBA"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/treasuremod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.seba.treasuremod.TreasureMod"
+		],
+		"fabric-datagen": [
+			"net.seba.treasuremod.TreasureModDataGenerator"
+		],
+      "client": [
+        "net.seba.treasuremod.TreasureModClient"
+      ]
+	},
+	"mixins": [
+		"treasuremod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
